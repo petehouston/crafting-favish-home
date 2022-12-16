@@ -30,6 +30,7 @@ body {
     color: #15130f;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -394,4 +395,21 @@ footer.footer .info .contact .email {
 
 footer.footer .info .contact .phone {
     margin-bottom: 10px;
+}
+
+/*
+ * Credit
+ */
+.credit {
+    margin-top: 15px;
+}
+
+.credit .author {
+    padding-bottom: 2px;
+    color: #f9b81a;
+    border-bottom: solid 1px #f9b81a;
+}
+
+.credit .heart {
+    color: tomato;
 }

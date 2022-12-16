@@ -152,17 +152,17 @@ section.hero .guide p span svg {
 section.hero article.case-study {
     margin-top: 35px;
     margin-bottom: 35px;
+    margin-right: -24px;
+    overflow: hidden;
 }
 
 section.hero article.case-study .case-img {
     position: relative;
     height: 200px;
-    overflow: hidden;
 }
 
 section.hero article.case-study .case-img img {
     opacity: 1;
-    position: relative;
     display: block;
     object-fit: cover;
     max-height: 100%;
@@ -216,6 +216,7 @@ section.hero article.case-study  .case-title h3 {
 }
 
 section.hero article.case-study  .case-description {
+    padding-right: 24px;
     font-size: 18px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     margin-bottom: 50px;
@@ -224,6 +225,7 @@ section.hero article.case-study  .case-description {
 section.hero article.case-study  .case-button {
     margin-top: 35px;
     margin-bottom: 10px;
+    padding-right: 24px;
 }
 
 section.hero article.case-study  .case-button a {

@@ -157,6 +157,7 @@ section.hero article.case-study {
 section.hero article.case-study .case-img {
     position: relative;
     height: 200px;
+    overflow: hidden;
 }
 
 section.hero article.case-study .case-img img {
@@ -166,9 +167,9 @@ section.hero article.case-study .case-img img {
     object-fit: cover;
     max-height: 100%;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: -24px;
     max-width: 390px;
-    width:  390px;
+    width: 390px;
 }
 
 section.hero article.case-study .case-img img.main {

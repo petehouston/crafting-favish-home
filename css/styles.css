@@ -82,6 +82,14 @@ section.hero .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+
+section.hero .header svg {
+    position: absolute;
+    top: 18px;
+    left: -10px;
+    right: 10px;
 }
 
 section.hero .header ul li {
